@@ -1,5 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.wrapper{
+   max-width:1440px;
+   margin: 0 auto;
+   
+}
 header{
-display: flex;
+max-height: 545px;
+background: #eeeeee;
+}
+.cont1{
+    display: flex;
 justify-content: space-between;
 align-items: center;
+}
+.cont2{
+    
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.cont3{
+    
+    display: flex;
+flex-direction: column;
+}
+.conthead{
+    width: 1200px;
+    margin: 0 auto;
+}
+.dolgo{
+    width: 376px;
+height: 106px;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 55px;
+}
+.logo{
+    width: 160px;
+    height: 65px;
+}
+.nav{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.matematika{
+    width: 361px;
+    height: 40px;
+color: #283136;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 30px;
+}
+.uznat{
+    width: 240px;
+height: 50px;
+background-color: #fb565a;
+color: #ffffff;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
 }
